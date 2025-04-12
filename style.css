@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* geral */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
 }
+
+/* banner */
 .poster{
-    border: 3px solid green;
     width: 100%;
     height: 100%;
     display: flex;
@@ -32,8 +36,7 @@
     justify-content: center;
     text-align: center;
 }
-.poster .container-text p, section .container-text h4, section .container-text h2{
-    font-family: "Nunito", sans-serif;
+.poster .container-text h4, .poster .container-text h2{
     color: #005CFF;
 }
 .poster .container-text p{
@@ -45,4 +48,24 @@
 }
 .poster .container-text h2{
     font-size: 30px;
+}
+
+/* lançamentos */
+.launch{
+    border: 3px solid red;
+}
+.launch ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.launch ul li{
+    border: 2px solid green;
+    width: 15%;
+    height: 100%;
+    list-style: none;
+}
+.launch ul li img{
+    width: 190px;
+    height: 200px;
 }
