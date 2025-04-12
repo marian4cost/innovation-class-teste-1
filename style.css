@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poster{
+    border: 3px solid green;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #E7E7EA;
+}
+.poster .container-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.poster .container-img img{
+    width: 500px;
+    height: 400px;
+}
+.poster .container-text{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.poster .container-text p, section .container-text h4, section .container-text h2{
+    font-family: "Nunito", sans-serif;
+    color: #005CFF;
+}
+.poster .container-text p{
+    font-size: 90px;
+    color: #000;
+}
+.poster .container-text h4{
+    font-size: 20px;
+}
+.poster .container-text h2{
+    font-size: 30px;
+}
