@@ -110,3 +110,61 @@
     color: #005CFF;
     font-size: 40px;
 }
+
+.launch .text{
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.launch .text a{
+    color: #000;
+    text-decoration: none;
+}
+.launch .container{
+    margin: 2%;
+}
+.launch .container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.launch .container ul li{
+    margin: 2%;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    list-style: none;
+}
+.launch .container ul li .content{
+    margin: 2%;
+}
+.launch .container ul li .content .new{
+    background: #00264E;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: absolute;
+}
+.launch .container ul li .content .values{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.launch .container ul li .content .values .off{
+    background: #5EC0BE;
+    color: #fff;
+    margin-left: 10%;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.launch .container ul li .content button{
+    background: #005CFF;
+    color: #fff;
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
